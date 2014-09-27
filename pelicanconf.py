@@ -4,7 +4,7 @@
 # make sure to end all internal links with '/' so that mod_rewrite .htaccess works 
 # with subdirectories
 # SITEURL = 'http://cyrille.rossant.net'
-SITEURL = ''  # FOR LOCAL DEV ONLY
+# SITEURL = ''  # FOR LOCAL DEV ONLY
 
 AUTHOR = 'Cyrille Rossant'
 SITENAME = "IPython Books"
