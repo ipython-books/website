@@ -9,7 +9,7 @@ Slug: minibook
 <div class="book-descr pure-u-1 pure-u-sm-2-3">
 <div class="box">
     <h3>Learning IPython for Interactive Computing and Data Visualization</h3>
-    <div class="sub-header-3">Packt Publishing (135 pages, 20$)</div>
+    <div class="sub-header-3">Packt Publishing (135 pages, 20$, 05/2013)</div>
 
     <p>
         This book is a beginner-level introduction to Python for data analysis:

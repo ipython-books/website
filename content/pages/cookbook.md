@@ -10,7 +10,7 @@ Slug: cookbook
 <div class="book-descr pure-u-1 pure-u-sm-2-3">
 <div class="box">
     <h3>IPython Interactive Computing and Visualization Cookbook</h3>
-    <div class="sub-header-3">Packt Publishing (520 pages, 30$)</div>
+    <div class="sub-header-3">Packt Publishing (520 pages, 30$, 09/2014)</div>
 
     <p>
         This advanced-level book covers a wide range of methods for data science with Python:
@@ -37,6 +37,19 @@ Slug: cookbook
         <button class="pure-button button-book1-data"><i class="fa fa-database"></i>&nbsp;&nbsp;&nbsp;get the data</button>
     </a>
 </div>
+
+## Featured recipes
+
+A selection of free recipes from the book:
+
+1. [Getting the best performance out of NumPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/01_numpy_performance.ipynb)
+2. [Simulating a physical system by minimizing an energy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/02_energy_minimization.ipynb)
+3. [Creating a route planner for road network](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/03_gps.ipynb)
+4. [Introduction to machine learning in Python with scikit-learn](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/04_scikit.ipynb)
+5. [Simulating a partial differential equation: reaction-diffusion systems and Turing patterns](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/05_turing.ipynb)
+6. [Getting started with Vispy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/06_vispy.ipynb)
+* more coming soon...
+
 
 ## Part I: Advanced High-Performance Interactive Computing
 
