@@ -38,6 +38,19 @@ Slug: cookbook
     </a>
 </div>
 
+## Highlights
+
+* 500+ pages
+* 100+ recipes
+* 15 chapters
+* Each recipe illustrates one method on one real-world example
+* Code for Python 3 (but works fine on Python 2.7)
+* All of the code freely available on [GitHub](https://github.com/ipython-books/cookbook-code)
+* Contribute with issues and pull requests on [GitHub](https://github.com/ipython-books/cookbook-code)
+
+This is an advanced-level book: basic knowledge of IPython, NumPy, pandas, matplotlib is required.
+Beginners may be interested in the [minibook](/minibook/).
+
 ## Featured recipes
 
 A selection of free recipes from the book:
