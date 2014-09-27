@@ -84,7 +84,8 @@ a:hover {
 
 
 #sidebar .books {
-    margin: 1em 0 1em 0;
+    margin: 0;
+    font-size: 90%;
     display: block;
     clear: both;
 }
@@ -102,23 +103,43 @@ a:hover {
 #sidebar .books div.book-2 {
     text-align: right;
 }
-#sidebar .books img {
+#sidebar .books .box {
     width: 95%;
 }
-#sidebar .books p {
-    padding: .5em 0 1em 0;
+#sidebar .books img {
+    width: 100%;
+}
+
+#sidebar .books .button-book1,
+#sidebar .books .button-book2 {
+    width: 100%;
+    color: white;
+    padding: .25em;
+    margin: .1em 0 .3em 0;
+}
+#sidebar .books .button-data {
+    opacity: .75;
+}
+
+#sidebar .books .button-book1 {
+    background: #F89321;
+}
+
+#sidebar .books .button-book2 {
+    background: #6DBC51;
+}
+
+#sidebar .books > p {
+    padding: .5em 0 .5em 0;
+    margin: 0;
     clear: both;
 }
 
-#sidebar .search {
-    margin: 12em 0 1em 0;
-    padding: 0;
+#sidebar .books .box p {
+    margin: 0 0 .5em 0;
+    color: #777;
+    white-space: nowrap;
 }
-#sidebar .gsc-control-cse, #sidebar .gsc-search-box {
-    padding: 0;
-    border: 0;
-}
-
 
 
 
@@ -212,6 +233,8 @@ blockquote {
     border-left: .5em solid #eee;
     padding: 0 0 0 .75em;
 }
+
+
 
 
 /****** HEADERS ******/

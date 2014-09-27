@@ -1,6 +1,6 @@
 Title: IPython Minibook released
 
-I'm glad to present my new book, [Learning IPython for Interactive Computing and Data Visualization](http://ipython.rossant.net/), Packt
+I'm glad to present my new book, [Learning IPython for Interactive Computing and Data Visualization](/minibook/), Packt
 Publishing.
 
 This book is a **beginner-level introduction to IPython** for
