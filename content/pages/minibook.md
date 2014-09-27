@@ -24,3 +24,7 @@ Slug: minibook
 </div>
 </div>
 </div>
+
+<div style="text-align: center; margin-top: 2em;">
+    <a href="http://ipython.rossant.net"><button class="pure-button">More information here</button></a>
+</div>
