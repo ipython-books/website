@@ -17,7 +17,7 @@ Slug: cookbook
     </p>
 
     <ul>
-        <li>Advanced interactive computing in the IPython notebook</li>
+        <li>Advanced interactive computing in the <a href="http://ipython.org/notebook.html">IPython notebook</a></li>
         <li>High-performance computing with Python</li>
         <li>Statistics, machine learning, data mining</li>
         <li>Signal processing and mathematical modeling</li>

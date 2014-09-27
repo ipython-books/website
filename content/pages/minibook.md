@@ -16,10 +16,10 @@ Slug: minibook
     </p>
 
     <ul>
-        <li>Interactive Python with IPython</li>
-        <li>Data analysis with pandas</li>
-        <li>Numerical computing with NumPy/SciPy</li>
-        <li>Data visualization with matplotlib</li>
+        <li>Interactive Python with <a href="http://ipython.org/">IPython</a></li>
+        <li>Data analysis with <a href="http://pandas.pydata.org/">pandas</a></li>
+        <li>Numerical computing with <a href="http://scipy.org/">NumPy/SciPy</a></li>
+        <li>Data visualization with <a href="http://matplotlib.org/">matplotlib</a></li>
     </ul>
 </div>
 </div>
