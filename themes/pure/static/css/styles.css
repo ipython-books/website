@@ -77,54 +77,10 @@ a:hover {
     padding: 0;
 }
 
-
-#sidebar .portrait {
-    width: 100%;
-    max-width: 250px;
-    max-height: 200px;
-    margin: 0 0 .5em 0;
-
-    vertical-align: center;
-    /*margin: auto 2em;*/
-    overflow: hidden
-}
-#sidebar .portrait img {
-/*    width: 100%;
-    max-width: 250px;*/
-    margin: -5% 0;
-    width: 100%;
-    vertical-align: middle;
-}
-
-
-
-#sidebar .name {
-    font-weight: bold;
-}
-
-#sidebar .sub-name {
+#sidebar p {
     font-size: .9em;
 }
 
-#sidebar .contact {
-    /*margin-top: .5em;*/
-}
-
-#sidebar .contact, #sidebar .location {
-    font-size: .9em;
-    color: #777;
-}
-.e-mail:before {
-    content: attr(data-website) "\0040" attr(data-user);
-    unicode-bidi: bidi-override;
-    direction: rtl;
-}
-
-
-#sidebar .tags {
-    font-size: .9em;
-    margin: 1em 0 1em 0;
-}
 
 
 #sidebar .books {
@@ -148,6 +104,10 @@ a:hover {
 }
 #sidebar .books img {
     width: 95%;
+}
+#sidebar .books p {
+    padding: .5em 0 1em 0;
+    clear: both;
 }
 
 #sidebar .search {
