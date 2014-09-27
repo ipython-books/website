@@ -197,8 +197,11 @@ code {
 .book-cover {
 }
 .book-cover img {
-    width: 90%;
-    max-width: 200px;
+    width: 100%;
+    /*max-width: 200px;*/
+}
+.book-descr > div.box {
+    padding: 0 0 0 2em;
 }
 .book-descr h3 {
     margin: 0 0 1em 0;

@@ -38,7 +38,7 @@ PLUGINS = [
 
 DEFAULT_CATEGORY = ''
 
-DIRECT_TEMPLATES = ('index', 'archives')
+DIRECT_TEMPLATES = ('index',)
 
 ARCHIVES_SAVE_AS = ''
 
@@ -57,9 +57,6 @@ AUTHOR_SAVE_AS = ''
 
 CATEGORY_URL = ''
 CATEGORY_SAVE_AS = ''
-
-
-
 
 TWITTER_USERNAME = 'cyrillerossant'
 MENUITEMS = [('Home', '/'),
