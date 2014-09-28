@@ -246,6 +246,14 @@ code {
     background-color: #ccc;
 }
 
+.ipynb-html {
+    margin: 1em 0;
+}
+
+.ipynb-html td, .ipynb-html th {
+    padding: .25em;
+}
+
 
 
 #post embed {
@@ -254,7 +262,7 @@ code {
     margin: 1em 0;
 }
 
-#post img, .post img {
+#post img, .post img, .page img, #page img {
     max-width: 100%;
 }
 
