@@ -2,6 +2,7 @@
     {% for icon, url in [
         ('twitter', 'https://twitter.com/cyrillerossant'),
         ('github', 'https://github.com/ipython-books'),
+        ('rss', '/feeds/atom.xml'),
     ] %}
         <li><a href="{{ url }}"><i class="fa fa-{{ icon }}"></i></a></li>
     {% endfor %}
