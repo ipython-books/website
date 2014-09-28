@@ -27,7 +27,7 @@ Slug: minibook
 
 <div class="buttons-books buttons-book1">
     <a href="https://www.packtpub.com/big-data-and-business-intelligence/learning-ipython-interactive-computing-and-data-visualization">
-        <button class="pure-button button-book2-order"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;order the book</button>
+        <button class="pure-button button-book2-order"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;purchase</button>
     </a>
     <a href="https://github.com/ipython-books/minibook-code">
         <button class="pure-button button-book2-code"><i class="fa fa-code"></i>&nbsp;&nbsp;&nbsp;get the code</button>
