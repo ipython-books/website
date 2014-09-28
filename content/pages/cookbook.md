@@ -17,7 +17,7 @@ Slug: cookbook
     </p>
 
     <ul>
-        <li>Advanced interactive computing in the <a href="http://ipython.org/notebook.html">IPython notebook</a></li>
+        <li>Interactive computing in the <a href="http://ipython.org/notebook.html">IPython notebook</a></li>
         <li>High-performance computing with Python</li>
         <li>Statistics, machine learning, data mining</li>
         <li>Signal processing and mathematical modeling</li>
@@ -26,15 +26,15 @@ Slug: cookbook
 </div>
 </div>
 
-<div class="buttons-books buttons-book1">
+<div class="buttons-books buttons-book2">
     <a href="https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook">
-        <button class="pure-button button-book1-order"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;order the book</button>
+        <button class="pure-button button-book2-order"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;order the book</button>
     </a>
     <a href="https://github.com/ipython-books/cookbook-code">
-        <button class="pure-button button-book1-code"><i class="fa fa-code"></i>&nbsp;&nbsp;&nbsp;get the code</button>
+        <button class="pure-button button-book2-code"><i class="fa fa-code"></i>&nbsp;&nbsp;&nbsp;get the code</button>
     </a>
     <a href="https://github.com/ipython-books/cookbook-data">
-        <button class="pure-button button-book1-data"><i class="fa fa-database"></i>&nbsp;&nbsp;&nbsp;get the data</button>
+        <button class="pure-button button-book2-data"><i class="fa fa-database"></i>&nbsp;&nbsp;&nbsp;get the data</button>
     </a>
 </div>
 

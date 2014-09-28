@@ -207,15 +207,15 @@ code {
 }
 
 .buttons-book1 button {
+    background-color: #F89321;
+}
+
+.buttons-book2 button {
     background-color: #6DBC51;
 }
 
-.buttons-book1 .button-book1-order {
+.buttons-books .button-book1-order, .buttons-books .button-book2-order {
     background-color: #000;
-}
-
-.buttons-book1 .button-book1-data {
-    /*opacity: .75;*/
 }
 
 

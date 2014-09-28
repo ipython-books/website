@@ -25,6 +25,19 @@ Slug: minibook
 </div>
 </div>
 
+<div class="buttons-books buttons-book1">
+    <a href="https://www.packtpub.com/big-data-and-business-intelligence/learning-ipython-interactive-computing-and-data-visualization">
+        <button class="pure-button button-book2-order"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;order the book</button>
+    </a>
+    <a href="https://github.com/ipython-books/minibook-code">
+        <button class="pure-button button-book2-code"><i class="fa fa-code"></i>&nbsp;&nbsp;&nbsp;get the code</button>
+    </a>
+    <a href="https://github.com/ipython-books/minibook-data">
+        <button class="pure-button button-book2-data"><i class="fa fa-database"></i>&nbsp;&nbsp;&nbsp;get the data</button>
+    </a>
+</div>
+
+
 This book is a **beginner-level introduction to IPython** for *interactive Python programming*, *high-performance numerical computing*, and *data visualization*. It assumes nothing more than familiarity with Python. It targets developers, students, teachers, hobbyists who know Python a bit, and who want to learn IPython for the extended console, the Notebook, and for more advanced scientific applications.
 
 ## Table of contents
