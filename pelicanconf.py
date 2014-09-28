@@ -21,6 +21,9 @@ FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 MD_EXTENSIONS = ['codehilite(css_class=highlight,guess_lang=False,linenums=False)',
 				 'extra']
 
+PAGE_EXCLUDES = ['.ipynb_checkpoints']
+ARTICLE_EXCLUDES = ['.ipynb_checkpoints']
+
 DEFAULT_PAGINATION = 5
 PAGINATION_PATTERNS = (
     (1, '{base_name}/', '{base_name}/index.html'),
@@ -78,8 +81,8 @@ DEFAULT_LANG = 'en'
 # FEED_ATOM = 'feeds/atom.xml'
 # FEED_RSS = 'feeds/rss.xml'
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-FEED_ALL_RSS = 'feeds/all.rss.xml'
+FEED_ALL_ATOM = 'feeds/atom.xml'
+FEED_ALL_RSS = 'feeds/rss.xml'
 
 FEED_DOMAIN = SITEURL
 CATEGORY_FEED_ATOM = None

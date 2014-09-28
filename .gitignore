@@ -3,3 +3,4 @@ cache/
 _old/
 output/
 pelicanconf_*.py
+.ipynb_checkpoints
