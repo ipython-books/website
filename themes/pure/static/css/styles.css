@@ -121,7 +121,10 @@ a:hover {
     margin: .1em 0 .3em 0;
 }
 #sidebar .books .button-data {
-    opacity: .75;
+    opacity: .85;
+}
+#sidebar .books .button-news {
+    opacity: .7;
 }
 
 #sidebar .books .button-book1 {

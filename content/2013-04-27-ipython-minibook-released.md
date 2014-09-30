@@ -1,4 +1,5 @@
 Title: IPython Minibook released
+Tags: minibook
 
 I'm glad to present my new book, [Learning IPython for Interactive Computing and Data Visualization](/minibook/), Packt
 Publishing.

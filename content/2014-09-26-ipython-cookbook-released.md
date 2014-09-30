@@ -1,5 +1,5 @@
 Title: IPython Cookbook released
-Tags: python
+Tags: cookbook
 
 My new book, [IPython Interactive Computing and Visualization Cookbook](/cookbook/), has just been released! A sequel to my previous [beginner-level book on Python for data analysis](http://ipython.rossant.net), this new 500-page book is a **complete advanced-level guide to Python for data science**. The 100+ recipes cover not only interactive and high-performance computing topics, but also data science methods in statistics, data mining, machine learning, signal processing, image processing, network analysis, and mathematical modeling.
 

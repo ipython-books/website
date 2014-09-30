@@ -1,4 +1,5 @@
-Title: New Microsoft C++ compiler for Python 2.7 on Windows
+Title: New Microsoft C++ compiler for Python 2.7 on Windows,
+Tags: cookbook, minibook
 
 Compiling C extensions for Python on Windows used to be complicated. One had to install the adequate (unsupported) versions of Microsoft Visual Studio and the Windows compilers. Furthemore, it was necessary to invoke some commands on the command-line interface before running Python or IPython. In the end, installing non-pure-Python packages, or building non-pure-Python distributions for Windows users was a pain.
 

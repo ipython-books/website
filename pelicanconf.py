@@ -52,8 +52,8 @@ ARTICLE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
-TAG_URL = ''
-TAG_SAVE_AS = ''
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
 TAGS_SAVE_AS = ''
 
 AUTHOR_URL = ''
