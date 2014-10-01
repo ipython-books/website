@@ -24,6 +24,14 @@
             <div class="post-meta">
                 {{ article.date.strftime('%B %d, %Y')}}
             </div>
+            <div class="post-tags">
+                <ul>
+                    <li>tags:</li>
+                {% for tag in article.tags %}
+                    <li><a href="/tag/{{ tag.name }}/">{{ tag.name }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
     </header>
 
     <section id="post">
