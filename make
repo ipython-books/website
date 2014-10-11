@@ -11,7 +11,6 @@ import socketserver
 
 def call(cmd):
     cmd_list = shlex.split(cmd)
-    print(cmd_list)
     subprocess.Popen(cmd_list).wait()
 
 def conf():
