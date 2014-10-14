@@ -8,10 +8,13 @@ import subprocess
 import http.server
 import socketserver
 
+BASEURL = 'ipython-books.github.io'
 
-def call(cmd):
+def call(cmd, wait=True):
     cmd_list = shlex.split(cmd)
-    subprocess.Popen(cmd_list).wait()
+    p = subprocess.Popen(cmd_list)
+    if wait: 
+     	p.wait()
 
 def conf():
     "Generate the derivate conf files."
@@ -20,7 +23,7 @@ def conf():
         contents = f.read()
     
     loc = "SITEURL = '/'\n" + contents
-    pub = "SITEURL = 'http://ipython-books.github.io'\n" + contents
+    pub = ("SITEURL = 'http://%s'\n" % BASEURL) + contents
     
     with open('pelicanconf_loc.py', 'w') as f:
         f.write(loc)
@@ -33,14 +36,15 @@ def build(local=True, monitor=True):
     monitor = monitor & local
     conf()
     which = 'loc' if local else 'pub'
-    call("pelican -s=pelicanconf_%s.py %s" % (which, '-r' if monitor else ''))
+    call("pelican -s=pelicanconf_%s.py %s" % (which, '-r' if monitor else ''), 
+    	 wait=not(monitor))
 
 def serve():
     "Launch a local HTTP server."
     build()
     os.chdir('output')
     # subprocess.Popen(["python", "-m", "http.server"])
-    call("python -m http.server")
+    call("python -m http.server", wait=False)
     os.chdir('..')
 
 def clean():
@@ -56,8 +60,8 @@ def upload(msg):
     call("git add content/*.ipynb")
     call('git commit -am "%s"' % msg)
     call("git push")
-    call("cp -ar output/. ../ipython-books.github.io")
-    os.chdir("../ipython-books.github.io")
+    call("cp -ar output/. ../%s" % BASEURL)
+    os.chdir("../" % BASEURL)
     call("git add --ignore-removal *")
     call('git commit -am "%s"' % msg)
     call('git push')
