@@ -15,7 +15,7 @@ Here are the six featured recipes available today:
 
     <img src="{filename}images/optim.png" alt="NumPy array layout." width="300" />
 
-3. [**Creating a route planner for road network**](/featured-03/). This recipe implements a GPS-like itinerary planner in pure Python! It uses the [NetworkX package](networkx.github.io) to compute a shortest path in a road network. The example uses an open dataset with the full road network of California.
+3. [**Creating a route planner for road network**](/featured-03/). This recipe implements a GPS-like itinerary planner in pure Python! It uses the [NetworkX package](http://networkx.github.io) to compute a shortest path in a road network. The example uses an open dataset with the full road network of California.
 
     ![A GPS in Python!]({filename}images/road.jpg)
 
