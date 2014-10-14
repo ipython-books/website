@@ -61,7 +61,7 @@ def upload(msg):
     call('git commit -am "%s"' % msg)
     call("git push")
     call("cp -ar output/. ../%s" % BASEURL)
-    os.chdir("../" % BASEURL)
+    os.chdir("../%s" % BASEURL)
     call("git add --ignore-removal *")
     call('git commit -am "%s"' % msg)
     call('git push')
