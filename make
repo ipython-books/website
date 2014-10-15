@@ -74,6 +74,7 @@ commands = {
     # None: lambda: print("Please provide a command."),
     None: serve,
     'build': build,
+    'build_once': lambda: build(monitor=False),
     'serve': serve,
     'conf': conf,
     'clean': clean,
