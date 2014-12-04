@@ -351,14 +351,21 @@ h2 {
 
 
 h3 {
+    color: #777;
     margin: 1.25em 0 .75em 0;
     font-size: 1.35em;
-    color: #777;
 }
 #content .sub-header-3 {
     margin: -1em 0 0 0;
     font-size: .9em;
     color: #999;
+}
+
+
+h4 {
+    color: #888;
+    margin: 1.25em 0 .75em 0;
+    font-size: 1.1em;
 }
 
 
