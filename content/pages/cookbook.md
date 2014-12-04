@@ -53,6 +53,7 @@ Beginners may be interested in the [minibook](/minibook/).
 
 ## Featured recipes
 
+
 A selection of free recipes from the book:
 
 1. [Getting the best performance out of NumPy](/featured-01/)
@@ -61,7 +62,7 @@ A selection of free recipes from the book:
 4. [Introduction to machine learning in Python with scikit-learn](/featured-04/)
 5. [Simulating a partial differential equation: reaction-diffusion systems and Turing patterns](/featured-05/)
 6. [Getting started with Vispy](/featured-06/)
-7. [Introduction to frequentist and Bayesian statistics](/featured-07/)
+7. [Introduction to statistical data analysis in Python &ndash; frequentist and Bayesian methods](/featured-07/)
 * more coming soon...
 
 
