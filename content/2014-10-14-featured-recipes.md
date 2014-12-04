@@ -31,5 +31,9 @@ Here are the six featured recipes available today:
 
     ![Vispy examples]({filename}images/vispy.jpg)
 
+7. [**Introduction to statistical data analysis in Python &ndash; frequentist and Bayesian methods**](/featured-07/). This recipe introduces the basis of frequentist and Bayesian methods for statistical data analysis, using a simple coin tossing example.
+
+    <img src="{filename}images/gaussian.png" alt="A z-test" />
+
 I'm planning to release more featured recipes in the near future. [Let me know](https://twitter.com/cyrillerossant) if there's one recipe in particular you'd like to see among [all of the cookbook's recipes](/cookbook/#part-i-advanced-high-performance-interactive-computing).
 
