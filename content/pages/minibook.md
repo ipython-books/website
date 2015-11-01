@@ -8,8 +8,8 @@ Slug: minibook
 
 <div class="book-descr pure-u-1 pure-u-sm-2-3">
 <div class="box">
-    <h3>Learning IPython for Interactive Computing and Data Visualization</h3>
-    <div class="sub-header-3">Packt Publishing (135 pages, 20$, 05/2013)</div>
+    <h3>Learning IPython for Interactive Computing and Data Visualization, second edition</h3>
+    <div class="sub-header-3">Packt Publishing (175 pages, 25$, 10/2015)</div>
 
     <p>
         This book is a beginner-level introduction to Python for data analysis:
@@ -26,74 +26,71 @@ Slug: minibook
 </div>
 
 <div class="buttons-books buttons-book1">
-    <a href="https://www.packtpub.com/big-data-and-business-intelligence/learning-ipython-interactive-computing-and-data-visualization">
+    <a href="https://www.packtpub.com/big-data-and-business-intelligence/learning-ipython-interactive-computing-and-data-visualization-sec">
         <button class="pure-button button-book2-order"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;purchase</button>
     </a>
-    <a href="https://github.com/ipython-books/minibook-code">
+    <a href="https://github.com/ipython-books/minibook-2nd-code">
         <button class="pure-button button-book2-code"><i class="fa fa-code"></i>&nbsp;&nbsp;&nbsp;get the code</button>
     </a>
-    <a href="https://github.com/ipython-books/minibook-data">
+    <a href="https://github.com/ipython-books/minibook-2nd-data">
         <button class="pure-button button-book2-data"><i class="fa fa-database"></i>&nbsp;&nbsp;&nbsp;get the data</button>
     </a>
 </div>
 
 
-This book is a **beginner-level introduction to IPython** for *interactive Python programming*, *high-performance numerical computing*, and *data visualization*. It assumes nothing more than familiarity with Python. It targets developers, students, teachers, hobbyists who know Python a bit, and who want to learn IPython for the extended console, the Notebook, and for more advanced scientific applications.
+This book is a **beginner-friendly introduction to IPython/Jupyter** for *data analysis*, *interactive visualization*, *numerical computing*, and *high-performance computing*. It is perfectly suitable to beginners with no programming experience (an introduction to the Python language is provided in the first chapter).
+
+It targets students, teachers, researchers, engineers, analysts, journalists,  hobbyists, and all data enthusiasts who are interested in analyzing and visualizing real-world datasets.
+
 
 ## Table of contents
 
-### Chapter 1: Getting started with IPython
+All code examples are freely available on GitHub as Jupyter Notebooks.
 
-### Chapter 2: Interactive Work with IPython
+### 1. Getting started with IPython
 
-  * [Example 1](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter2/201-facebook-data-download.ipynb). We download and extract a social graph dataset (ego graphs of anonymous Facebook users, obtained on the [SNAP project](http://snap.stanford.edu/data/) from Stanford University). This example illustrates how to interact with the filesystem from IPython.
+* 1.1. What are Python, IPython, and Jupyter?
+* 1.2. Installing Python with Anaconda
+* 1.3. Introducing the Notebook
+* [1.4. A crash course on Python](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter1/14-python.ipynb)
+* [1.5. Ten Jupyter/IPython essentials](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter1/15-ten.ipynb)
+* 1.6. Summary
 
-  * [Example 2](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter2/202-facebook-data-explore.ipynb). Here we explore with IPython the dataset downloaded in the previous example.
+### 2. Interactive data analysis with pandas
 
-  * [Example 3](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter2/203-networkx.ipynb). We use the NetworkX package to process social graphs. We show how to explore simultaneously the data and a new Python module as well in an IPython interactive session.
+* [2.1. Exploring a dataset in the Notebook](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter2/21-exploring.ipynb)
+* [2.2. Manipulating data](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter2/22-manipulating.ipynb)
+* [2.3. Complex operations](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter2/23-groupby.ipynb)
+* 2.4. Summary
 
+### 3. Numerical computing with NumPy
 
-### Chapter 3: Numerical Computing with IPython
+* [3.1. A primer to vector computing](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter3/31-primer.ipynb)
+* [3.2. Creating and loading arrays](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter3/32-creating.ipynb)
+* [3.3. Basic array manipulations](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter3/33-basic.ipynb)
+* [3.4. Computing with NumPy arrays](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter3/34-computing.ipynb)
+* 3.5. Summary
 
-  * [Example 1](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter3/301-vector-computations.ipynb). We introduce here the very basics of vector computing and NumPy multidimensional arrays. We show with a simple example what performance gains we can expect by using NumPy instead of pure Python loops.
+### 4. Interactive plotting and Graphical Interfaces
 
-  * [Example 2](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter3/302-multiplication-tables.ipynb). We generate multiplication tables with different methods, showing the performance benefits of using vectorized computations and broadcasting.
+* [4.1. Choosing a plotting backend](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter4/41-notebook.ipynb)
+* [4.2. matplotlib and seaborn essentials](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter4/42-mpl.ipynb)
+* [4.3. Image processing](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter4/43-image.ipynb)
+* 4.4. Further plotting and visualization libraries
+* 4.5. Summary
 
-  * [Example 3](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter3/303-cities-data-explore.ipynb). We download and analyze a new dataset containing the geographical coordinates of all cities in the world, as well as the population for some of them. [This free dataset](http://www.maxmind.com/en/worldcities) has been created by [MaxMind](http://www.maxmind.com/).
+### 5. High-performance and parallel computing
 
+* [5.1. Accelerating Python code with Numba](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter5/51-numba.ipynb)
+* [5.2. Writing C in Python with Cython](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter5/52-cython.ipynb)
+* [5.3. Distributing tasks on several cores with IPython.parallel](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter5/53-parallel.ipynb)
+* 5.4. Further high-performance computing techniques
+* 5.5. Summary
 
-### Chapter 4: Interactive Plotting and Graphical Interfaces
+### 6. Customizing IPython
 
-  * [Example 1](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter4/401-matplotlib-intro.ipynb). This is a short introduction to the most basic plotting features of Matplotlib.
-
-  * [Example 2](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter4/402-world-map.ipynb). We use the world cities dataset from the previous example to create a human density world map with SciPy and Matplotlib.
-
-  * [Example 3](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter4/403-histograms.ipynb). We show how to plot histograms of social data.
-
-  * [Example 4](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter4/404-customization.ipynb). We show a few customization options with Matplotlib.
-
-  * [Example 5](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter4/405-image-processing.ipynb). We show how to use PIL and SciPy for some basic image processing algorithms.
-
-  * [Example 6](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter4/406-plot3d.ipynb). This is a 3D plot example with Matplotlib.
-
-
-### Chapter 5: High Performance and Parallel Computing
-
-  * [Example 1](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter5/501-parallel-computing.ipynb). We demonstrate the most basic interactive parallel computing features of IPython.
-
-  * [Example 2](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter5/502-monte-carlo.ipynb). We show how Monte Carlo simulations can be parallelized with IPython.
-
-  * [Example 3](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter5/503-mpi.ipynb). This is a simple MPI example executed from an interactive IPython session.
-
-  * [Example 4](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter5/504-cython-eratosthenes.ipynb). We show how an imperative algorithm (Sieve of Eratosthenes) implemented in Python can be accelerated with Cython.
-
-  * [Example 5](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter5/505-cython-numpy.ipynb). We show how to use Cython with NumPy-based algorithms for dramatic speed improvements.
-
-
-### Chapter 6: Customizing IPython
-
-  * [Example 1](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter6/601-lprof.ipynb). We show how to load IPython extensions, with an application to line-by-line profiling of Python code.
-
-  * [Example 2](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter6/602-cpp.ipynb). We show how to create a new IPython extension. As an example, we create a very basic extension for writing and executing C++ code in the IPython notebook.
-
-  * [Example 3](http://nbviewer.ipython.org/url/raw.github.com/ipython-books/minibook-code/master/chapter6/603-notebook-rich-display.ipynb). We illustrate the rich display features of the IPython notebook.
+* [6.1. Creating a custom magic command in an IPython extension](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter6/61-magic.ipynb)
+* [6.2. Writing a new Jupyter kernel](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter6/62-kernel.ipynb)
+* [6.3. Displaying rich HTML elements in the Notebook](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter6/63-rich.ipynb)
+* [6.4. Customizing the Notebook interface with JavaScript](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter6/64-nbapp.ipynb)
+* 6.5. Summary
